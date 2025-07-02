@@ -9,7 +9,7 @@ public class binary_search_trace {
         int right = arr.length - 1;
         boolean found = false;
         while (left <= right) {
-            int mid = (left + right) / 2;
+            int mid = (left + right) / 2;//
             System.out.printf("搜尋範圍：left = %d, right = %d, mid = %d → arr[mid] = %d%n",
                     left, right, mid, arr[mid]);
 
