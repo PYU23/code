@@ -24,8 +24,8 @@ public class ArrayUtility {
         if (array.length < 2) {
             throw new IllegalArgumentException("陣列中至少要有兩個元素");
         }
-        int largest = Integer.MIN_VALUE;
-        int second = Integer.MIN_VALUE;
+        int largest = Integer.MIN_VALUE;//
+        int second = Integer.MIN_VALUE;//
         for (int num : array) {
             if (num > largest) {
                 second = largest;
